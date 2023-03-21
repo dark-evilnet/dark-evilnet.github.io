@@ -99,7 +99,7 @@ $.fn.halloweenBats({
                                 <p class="animate__animated animate__backInUp animate__delay-2s">
                                     Tools to help you
                                 </p>
-                                <a class="clickbtn animate__animated animate__fadeInDown animate__delay-3s" href="#" target="_blank">Website</a><a class="clickbtn animate__animated animate__fadeInDown animate__delay-3s" href="#"
+                                <a class="clickbtn animate__animated animate__fadeInDown animate__delay-3s" href="#" target="_blank">Website</a><a class="clickbtn animate__animated animate__fadeInDown animate__delay-3s" onclick="window.location.href='https://msng.link/o/?evilnet_official=tg'"
                                     target="_blank">Telegram</a>
                             </div>
                         </div>
@@ -1056,7 +1056,7 @@ $.fn.halloweenBats({
                         <div class="error-message"></div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
-                    <div class="text-center animate__animated animate__zoomIn animate__delay-1-5s"><a class="clickbtn">Send Message</a></div>
+                    <div class="text-center animate__animated animate__zoomIn animate__delay-1-5s"><a onclick="errorSMTP()" class="clickbtn">Send Message</a></div>
                 </form>
                 <div class="row mt-4">
                     <div class="col-md-12">
@@ -1435,5 +1435,11 @@ cursorSpecialEffects.init()
 <source src="https://j.top4top.io/m_16601rlet0.mp3" type="audio/mpeg">            </audio>
 <div class="evilnet-music"> <script>  var x = document.getElementById("sec");     function playAudio() {  x.play();   }       function myFunction() {          var element = document.body; element.classList.toggle("dark-mode"); } function changeImage() { if (document.getElementById("imgClickAndChange").src == "body") { document.getElementById("imgClickAndChange").src = "body"; } else { document.getElementById("imgClickAndChange").src = "body"; } } </script>
          </audio>
+<script>
+function errorSMTP() {
+  alert("error SMTP 🤕,send message on telegram");
+}
+</script>
+
 </body>
 </html>
